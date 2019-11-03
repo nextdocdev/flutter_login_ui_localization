@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:loginpageui/utilities/constants.dart';
-
 import '../localizations.dart';
+import '../Helpers/LocaleHelper.dart';
 
 class LoginPage extends StatefulWidget {
+
+  final String title;
+
+  LoginPage({this.title});
+
   @override
   _LoginPageState createState() => _LoginPageState();
 }
@@ -161,6 +166,22 @@ class _LoginPageState extends State<LoginPage> {
             );
   }
 
+  Widget _buildLanguageBtn({String languageText}) {
+    return FlatButton(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20.0)
+      ),
+      onPressed: () {
+        setState(() {
+          helper.onLocaleChanged(new Locale(languageText));
+        });
+      },
+      child: Text(languageText),
+      color: AppLocalizations.of(context).locale == languageText ? Colors.green : Colors.blue,
+    );
+  }
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -208,7 +229,7 @@ class _LoginPageState extends State<LoginPage> {
                           fontWeight: FontWeight.bold
                         ),
                       ),
-                      SizedBox(height: 25.0,),
+                      SizedBox(height: 20.0,),
                       _buildEmail(),
                       SizedBox(height: 20.0,),
                       _buildPassword(),
@@ -225,6 +246,18 @@ class _LoginPageState extends State<LoginPage> {
                             _buildSocialBtn(() => print("Google login"), AssetImage("assets/logos/google.jpg")),
                           ]
                         )
+                      ),
+                      SizedBox(height: 10.0,),
+                      Container(
+                        alignment: Alignment.center,
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: <Widget>[
+                            _buildLanguageBtn(languageText: "pt"),
+                            _buildLanguageBtn(languageText: "en")
+                          ],
+                        ),
                       ),
                     ],
                   )
