@@ -25,9 +25,9 @@ Packages:
 
 ## Screens preview
 ### English
-![alt text](http://url/to/flutter_ui_eng.png)
+![alt text](https://github.com/nextdocdev/flutter_login_ui_localization/blob/master/flutter_ui_eng.png)
 
 ### Portuguese
-![alt text](http://url/to/flutter_ui_port.png)
+![alt text](https://github.com/nextdocdev/flutter_login_ui_localization/blob/master/flutter_ui_port.png)
 
 
