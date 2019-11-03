@@ -23,4 +23,11 @@ Commands used in this project:
 Packages:
  - https://pub.dev/packages/intl_translation
 
+## Screens preview
+### English
+![alt text](http://url/to/flutter_ui_eng.png)
+
+### Portuguese
+![alt text](http://url/to/flutter_ui_port.png)
+
 
