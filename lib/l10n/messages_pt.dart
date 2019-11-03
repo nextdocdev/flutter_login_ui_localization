@@ -22,14 +22,14 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
     "btnSubmit" : MessageLookupByLibrary.simpleMessage("Login"),
-    "headTitle" : MessageLookupByLibrary.simpleMessage("System Access"),
-    "lblEmail" : MessageLookupByLibrary.simpleMessage("Email"),
-    "lblEmailHint" : MessageLookupByLibrary.simpleMessage("type your email"),
-    "lblForgotPassword" : MessageLookupByLibrary.simpleMessage("Forgot my password"),
-    "lblLoginWithText" : MessageLookupByLibrary.simpleMessage("OR"),
-    "lblPassword" : MessageLookupByLibrary.simpleMessage("Password"),
-    "lblPasswordHint" : MessageLookupByLibrary.simpleMessage("type your password"),
-    "lblRememberMe" : MessageLookupByLibrary.simpleMessage("Remember me"),
-    "locale" : MessageLookupByLibrary.simpleMessage("en")
+    "headTitle" : MessageLookupByLibrary.simpleMessage("Acesso"),
+    "lblEmail" : MessageLookupByLibrary.simpleMessage("E-mail"),
+    "lblEmailHint" : MessageLookupByLibrary.simpleMessage("digite o seu e-mail"),
+    "lblForgotPassword" : MessageLookupByLibrary.simpleMessage("Esqueci minha senha"),
+    "lblLoginWithText" : MessageLookupByLibrary.simpleMessage("OU"),
+    "lblPassword" : MessageLookupByLibrary.simpleMessage("Senha"),
+    "lblPasswordHint" : MessageLookupByLibrary.simpleMessage("digite sua senha"),
+    "lblRememberMe" : MessageLookupByLibrary.simpleMessage("Lembrar-me"),
+    "locale" : MessageLookupByLibrary.simpleMessage("pt")
   };
 }
