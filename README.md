@@ -1,6 +1,6 @@
-# loginpageui
+# Flutter LoginUI with Localiation resources
 
-A new Flutter project.
+A Flutter project using i18n resources with Intl.
 
 ## Getting Started
 
