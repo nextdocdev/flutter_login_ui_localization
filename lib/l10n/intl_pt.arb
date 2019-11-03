@@ -1,0 +1,53 @@
+{
+  "@@last_modified": "2019-11-02T20:39:05.042958",
+  "headTitle": "Acesso",
+  "@headTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnSubmit": "Entrar",
+  "@btnSubmit": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "locale": "en",
+  "@locale": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblEmail": "E-mail",
+  "@lblEmail": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblEmailHint": "digite seu e-mail",
+  "@lblEmailHint": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblPassword": "Senha",
+  "@lblPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblPasswordHint": "digite sua senha",
+  "@lblPasswordHint": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblForgotPassword": "Esqueci minha senha",
+  "@lblForgotPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblRememberMe": "Lembrar-me",
+  "@lblRememberMe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblLoginWithText": "OU",
+  "@lblLoginWithText": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

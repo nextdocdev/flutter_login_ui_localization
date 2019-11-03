@@ -1,0 +1,53 @@
+{
+  "@@last_modified": "2019-11-02T20:39:05.042958",
+  "headTitle": "System Access",
+  "@headTitle": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "btnSubmit": "Login",
+  "@btnSubmit": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "locale": "en",
+  "@locale": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblEmail": "Email",
+  "@lblEmail": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblEmailHint": "type your email",
+  "@lblEmailHint": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblPassword": "Password",
+  "@lblPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblPasswordHint": "type your password",
+  "@lblPasswordHint": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblForgotPassword": "Forgot my password",
+  "@lblForgotPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblRememberMe": "Remember me",
+  "@lblRememberMe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "lblLoginWithText": "OR",
+  "@lblLoginWithText": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
